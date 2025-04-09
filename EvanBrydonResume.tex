@@ -1,0 +1,78 @@
+% LaTeX resume using res.cls
+\documentclass[11pt]{res} % default is 10 pt
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+%\usepackage{lipsum}
+\righthyphenmin=62
+\lefthyphenmin=62
+\usepackage{latexsym}   % to get the \Box symbol
+\usepackage{enumitem}
+\setlength{\textheight}{10in} % increase text height to fit resume on 1 page
+\topmargin=-0.25in % start text higher on the page
+\begin{document} 
+\raggedright
+% top section
+\name{EVAN A. BRYDON} 
+\address{60 Saturn Street $\bullet$ San Francisco, CA 94114\\
+(415)997-9916 $\bullet$ ebirdbrydon@gmail.com}
+  
+% Summary                
+\begin{resume}
+\section{SUMMARY}
+Experienced data scientist with strong ability to quickly learn new skills, independently solve complex problems, and clearly communicate results.
+
+% Work experience
+\section{WORK EXPERIENCE} 
+
+% Nielsen
+\textbf{The Nielsen Company} - Menlo Park, CA
+\\Data Scientist (January 2016 - July 2024)
+\begin{itemize} \itemsep -0pt 
+%\item Worked within Nielsen's Algorithms and Machine Learning group as Nielsen's on-site data scientist at the Facebook campus in Menlo Park.
+\item Used Python Pandas and Scikit-Learn to create a model to predict age for demographic reporting in Nielsen Digital Ad Ratings and Digital Content Ratings products.
+\item Refined and carried out process to algorithmically link Nielsen TV panelists to Facebook profiles for cross-platform measurement in R.
+%\item Used PySpark on Databricks to use audio data as an additional input to improve the Viewer Assignment algorithm.
+%\item Used Databricks Jobs API to create and manage clusters to tune Viewer Assignment genre clustering parameters.
+\item Helped build a now-patented automated process in AWS to link Nielsen panelists to Google accounts while adhering to stringent data security requirements.
+\item Worked with a team to build a model for assigning demographics to census data at the device level. The model was built using PySpark in a modified version of AirFlow. 
+\item Greatly extended the model's lifespan by linking devices to people and implementing a system to automatically and continually update the model.
+\end{itemize}
+
+% Convergence
+\textbf{Convergence Investment Management} - San Francisco, CA
+\\Data Science Intern (March 2015 - July 2015)
+\begin{itemize} \itemsep -4pt
+\item Used Python Pandas and Scikit-Learn to create and test a regression model to predict fund movement for closed-end funds in selected situations.
+\end{itemize}
+
+% Livecareer
+\textbf{LiveCareer} - San Francisco, CA 
+\\Data Science Intern (November 2014 - March 2015)
+\begin{itemize} \itemsep -4pt
+\item Worked with LiveCareer database and API to extract text from resumes. Used text processing and machine learning techniques to examine resumes grouped by industry and form natural clusters by content.
+\end{itemize}
+
+% Education
+\section{EDUCATION} 
+\textbf{M.S. in Analytics}, University of San Francisco, 2015 \\
+\textbf{B.A. in Mathematics/Economics}, University of California - Santa Barbara, 2012 
+
+% Skills
+%\section{SKILLS}
+%\hangindent=27pt Python, PySpark, SQL, Machine Learning, Statistical Testing, Statistical Modeling, A/B Testing, Data Visualization, Demographic Analysis
+
+% Coursework
+\section{SELECTED COURSEWORK}
+
+UNIVERSITY OF SAN FRANCISCO \\
+\hangindent=27pt Relevant Courses: Exploratory Data Analysis, Linear Regression Analysis, Time Series Analysis, Multivariate Statistical Analysis, Data Acquisition, Machine Learning, Advanced Machine Learning, Distributed Computing, Relational Databases, NOSQL Databases, Information Visualization, Web Analytics.
+
+UNIVERSITY OF CALIFORNIA - SANTA BARBARA\\
+\hangindent=27pt Relevant Courses: Econometrics, Methods of Analysis, Calculus, Vector Calculus, Advanced Linear Algebra, Game Theory and Decision Making.
+
+
+
+
+\end{resume}
+\end{document}
+% how to run this code: typeset at the top left, but make sure res.cls is in the same folder. That's the LaTex template it's working from
