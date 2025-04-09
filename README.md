@@ -1,2 +1,5 @@
-# resume
-Code used to generate my resume
+# Evan's Resume
+========================
+Written in LaTeX
+
+!{}(EvanBrydonResume.png)
