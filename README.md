@@ -2,4 +2,4 @@
 ========================
 Written in LaTeX
 
-!{}(EvanBrydonResume.png)
+![](EvanBrydonResume.png)
